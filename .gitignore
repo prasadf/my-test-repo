@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# I don't want to track the following files from my repo:
+password.txt
+
+# I also want git to exclude the following directories:
+do_not_track/
 # Distribution / packaging
 .Python
 build/
